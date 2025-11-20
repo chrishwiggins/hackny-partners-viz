@@ -39,7 +39,9 @@ Then visit `http://localhost:8000`
 
 ## Deployment
 
-This site is deployed via GitHub Pages at: [URL will be added after deployment]
+This site is deployed via GitHub Pages at: **https://chrishwiggins.github.io/hackny-partners-viz/**
+
+Repository: https://github.com/chrishwiggins/hackny-partners-viz
 
 ## Tech Stack
 
