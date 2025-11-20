@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hackNY Partners - Host Startups & Companies</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #ff3366 0%, #ff6b99 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #888;
+            margin-bottom: 20px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+            padding: 20px;
+            background: #1a1a1a;
+            border-radius: 10px;
+            min-width: 150px;
+        }
+
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #ff3366;
+        }
+
+        .stat-label {
+            color: #888;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background: #1a1a1a;
+            border: 2px solid #ff3366;
+            color: #ff3366;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s;
+        }
+
+        .btn:hover {
+            background: #ff3366;
+            color: #fff;
+        }
+
+        .btn.active {
+            background: #ff3366;
+            color: #fff;
+        }
+
+        .search-box {
+            padding: 10px 20px;
+            background: #1a1a1a;
+            border: 2px solid #333;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 1em;
+            width: 300px;
+            transition: border-color 0.3s;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: #ff3366;
+        }
+
+        .partners-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .partner-card {
+            background: #1a1a1a;
+            border: 2px solid #2a2a2a;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .partner-card:hover {
+            transform: translateY(-5px);
+            border-color: #ff3366;
+            box-shadow: 0 10px 30px rgba(255, 51, 102, 0.3);
+        }
+
+        .partner-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .partner-count {
+            font-size: 2em;
+            font-weight: bold;
+            color: #ff3366;
+            margin: 10px 0;
+        }
+
+        .partner-label {
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        .years {
+            margin-top: 10px;
+            color: #666;
+            font-size: 0.85em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #666;
+            border-top: 1px solid #2a2a2a;
+            margin-top: 60px;
+        }
+
+        .footer-link {
+            color: #ff3366;
+            text-decoration: none;
+        }
+
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .partners-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 15px;
+            }
+
+            .search-box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>hackNY Partners</h1>
+        <p class="subtitle">Companies that have hosted our fellows since 2010</p>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number" id="totalPartners">0</div>
+                <div class="stat-label">Partner Companies</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="totalFellows">0</div>
+                <div class="stat-label">Fellows Hosted</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="yearRange">2010-2024</div>
+                <div class="stat-label">Years Active</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="controls">
+            <input type="text" class="search-box" id="searchBox" placeholder="Search partners...">
+            <button class="btn active" data-sort="count">Sort by Fellows</button>
+            <button class="btn" data-sort="name">Sort by Name</button>
+            <button class="btn" data-sort="recent">Most Recent</button>
+        </div>
+
+        <div class="partners-grid" id="partnersGrid"></div>
+    </div>
+
+    <footer>
+        <p>Part of the <a href="https://hackny.org" class="footer-link">hackNY</a> fellowship program</p>
+        <p style="margin-top: 10px;">View <a href="https://hackny.github.io/AlumNY/" class="footer-link">all fellows</a></p>
+    </footer>
+
+    <script>
+        let partnersData = [];
+        let currentSort = 'count';
+
+        // Load and process data
+        fetch('partners.json')
+            .then(response => response.json())
+            .then(data => {
+                partnersData = data;
+                updateStats();
+                renderPartners();
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+            });
+
+        function updateStats() {
+            document.getElementById('totalPartners').textContent = partnersData.length;
+            const totalFellows = partnersData.reduce((sum, p) => sum + p.count, 0);
+            document.getElementById('totalFellows').textContent = totalFellows;
+        }
+
+        function renderPartners(filterText = '') {
+            const grid = document.getElementById('partnersGrid');
+            const filtered = partnersData.filter(partner =>
+                partner.name.toLowerCase().includes(filterText.toLowerCase())
+            );
+
+            // Sort
+            let sorted = [...filtered];
+            if (currentSort === 'count') {
+                sorted.sort((a, b) => b.count - a.count);
+            } else if (currentSort === 'name') {
+                sorted.sort((a, b) => a.name.localeCompare(b.name));
+            } else if (currentSort === 'recent') {
+                sorted.sort((a, b) => Math.max(...b.years) - Math.max(...a.years));
+            }
+
+            grid.innerHTML = sorted.map(partner => `
+                <div class="partner-card">
+                    <div class="partner-name">${partner.name}</div>
+                    <div class="partner-count">${partner.count}</div>
+                    <div class="partner-label">fellow${partner.count !== 1 ? 's' : ''}</div>
+                    <div class="years">${formatYears(partner.years)}</div>
+                </div>
+            `).join('');
+        }
+
+        function formatYears(years) {
+            if (years.length === 1) return years[0];
+            const sorted = years.sort((a, b) => a - b);
+            const first = sorted[0];
+            const last = sorted[sorted.length - 1];
+            if (first === last) return first;
+            return `${first}-${last}`;
+        }
+
+        // Search functionality
+        document.getElementById('searchBox').addEventListener('input', (e) => {
+            renderPartners(e.target.value);
+        });
+
+        // Sort buttons
+        document.querySelectorAll('.btn[data-sort]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.btn[data-sort]').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentSort = btn.dataset.sort;
+                renderPartners(document.getElementById('searchBox').value);
+            });
+        });
+    </script>
+</body>
+</html>

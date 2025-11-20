@@ -1,0 +1,1331 @@
+[
+  {
+    "name": "BuzzFeed",
+    "count": 26,
+    "years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2021
+    ]
+  },
+  {
+    "name": "Chartbeat",
+    "count": 20,
+    "years": [
+      2011,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2024
+    ]
+  },
+  {
+    "name": "MongoDB",
+    "count": 17,
+    "years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2019,
+      2020
+    ]
+  },
+  {
+    "name": "Datadog",
+    "count": 16,
+    "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2023
+    ]
+  },
+  {
+    "name": "Skillshare",
+    "count": 12,
+    "years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017
+    ]
+  },
+  {
+    "name": "Tumblr",
+    "count": 10,
+    "years": [
+      2011,
+      2012,
+      2013,
+      2016,
+      2017,
+      2018
+    ]
+  },
+  {
+    "name": "Atlassian",
+    "count": 6,
+    "years": [
+      2020,
+      2023,
+      2024
+    ]
+  },
+  {
+    "name": "Business Insider",
+    "count": 5,
+    "years": [
+      2010,
+      2013,
+      2015,
+      2016,
+      2017
+    ]
+  },
+  {
+    "name": "Foursquare",
+    "count": 5,
+    "years": [
+      2011,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  {
+    "name": "Major League Hacking",
+    "count": 5,
+    "years": [
+      2015,
+      2020
+    ]
+  },
+  {
+    "name": "Betterpath",
+    "count": 4,
+    "years": [
+      2014,
+      2015
+    ]
+  },
+  {
+    "name": "Challenge Post",
+    "count": 4,
+    "years": [
+      2012,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  {
+    "name": "Kickstarter",
+    "count": 4,
+    "years": [
+      2013,
+      2014,
+      2015
+    ]
+  },
+  {
+    "name": "Birchbox",
+    "count": 4,
+    "years": [
+      2012,
+      2013,
+      2014,
+      2015
+    ]
+  },
+  {
+    "name": "bitly",
+    "count": 4,
+    "years": [
+      2010,
+      2011,
+      2012,
+      2013
+    ]
+  },
+  {
+    "name": "Second Market",
+    "count": 4,
+    "years": [
+      2011,
+      2012,
+      2013
+    ]
+  },
+  {
+    "name": "Sailthru",
+    "count": 4,
+    "years": [
+      2012,
+      2013
+    ]
+  },
+  {
+    "name": "Magnetic",
+    "count": 4,
+    "years": [
+      2014,
+      2015
+    ]
+  },
+  {
+    "name": "Oden Technologies",
+    "count": 4,
+    "years": [
+      2017,
+      2019,
+      2021,
+      2022
+    ]
+  },
+  {
+    "name": "Parse.ly",
+    "count": 4,
+    "years": [
+      2010,
+      2011,
+      2012,
+      2013
+    ]
+  },
+  {
+    "name": "AI.Reverie",
+    "count": 4,
+    "years": [
+      2019,
+      2020,
+      2021
+    ]
+  },
+  {
+    "name": "Policy Genius",
+    "count": 4,
+    "years": [
+      2020,
+      2021,
+      2022
+    ]
+  },
+  {
+    "name": "GIPHY",
+    "count": 3,
+    "years": [
+      2017,
+      2018,
+      2019
+    ]
+  },
+  {
+    "name": "Clarifai",
+    "count": 3,
+    "years": [
+      2015,
+      2017
+    ]
+  },
+  {
+    "name": "Next Jump",
+    "count": 3,
+    "years": [
+      2012,
+      2013,
+      2014
+    ]
+  },
+  {
+    "name": "First Look Media",
+    "count": 3,
+    "years": [
+      2016,
+      2017,
+      2018
+    ]
+  },
+  {
+    "name": "BlueCore",
+    "count": 3,
+    "years": [
+      2019,
+      2021
+    ]
+  },
+  {
+    "name": "Tilt / Windmill",
+    "count": 3,
+    "years": [
+      2019,
+      2020,
+      2021
+    ]
+  },
+  {
+    "name": "Ramp",
+    "count": 3,
+    "years": [
+      2020,
+      2024
+    ]
+  },
+  {
+    "name": "Ro",
+    "count": 3,
+    "years": [
+      2021,
+      2022
+    ]
+  },
+  {
+    "name": "Spruce",
+    "count": 3,
+    "years": [
+      2021,
+      2022
+    ]
+  },
+  {
+    "name": "AppNexus",
+    "count": 2,
+    "years": [
+      2014,
+      2016
+    ]
+  },
+  {
+    "name": "Aviary",
+    "count": 2,
+    "years": [
+      2010,
+      2011
+    ]
+  },
+  {
+    "name": "SocialFlow",
+    "count": 2,
+    "years": [
+      2011,
+      2012
+    ]
+  },
+  {
+    "name": "Branch",
+    "count": 2,
+    "years": [
+      2012,
+      2013
+    ]
+  },
+  {
+    "name": "Salido",
+    "count": 2,
+    "years": [
+      2016,
+      2017
+    ]
+  },
+  {
+    "name": "Oscar",
+    "count": 2,
+    "years": [
+      2014,
+      2016
+    ]
+  },
+  {
+    "name": "ChatID",
+    "count": 2,
+    "years": [
+      2013,
+      2014
+    ]
+  },
+  {
+    "name": "Mashable",
+    "count": 2,
+    "years": [
+      2016
+    ]
+  },
+  {
+    "name": "Gilt",
+    "count": 2,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "CitiBike",
+    "count": 2,
+    "years": [
+      2016,
+      2017
+    ]
+  },
+  {
+    "name": "Nestio",
+    "count": 2,
+    "years": [
+      2015,
+      2016
+    ]
+  },
+  {
+    "name": "QLabs",
+    "count": 2,
+    "years": [
+      2011,
+      2012
+    ]
+  },
+  {
+    "name": "MakeSpace",
+    "count": 2,
+    "years": [
+      2017,
+      2018
+    ]
+  },
+  {
+    "name": "Tapad",
+    "count": 2,
+    "years": [
+      2014,
+      2016
+    ]
+  },
+  {
+    "name": "Offerpop",
+    "count": 2,
+    "years": [
+      2015
+    ]
+  },
+  {
+    "name": "Kollabora",
+    "count": 2,
+    "years": [
+      2012,
+      2013
+    ]
+  },
+  {
+    "name": "Boxee",
+    "count": 2,
+    "years": [
+      2011,
+      2012
+    ]
+  },
+  {
+    "name": "Ordr.in",
+    "count": 2,
+    "years": [
+      2013,
+      2014
+    ]
+  },
+  {
+    "name": "Celmatix",
+    "count": 2,
+    "years": [
+      2017,
+      2018
+    ]
+  },
+  {
+    "name": "Local Response",
+    "count": 2,
+    "years": [
+      2011,
+      2012
+    ]
+  },
+  {
+    "name": "Meetup",
+    "count": 2,
+    "years": [
+      2012,
+      2014
+    ]
+  },
+  {
+    "name": "Wellthy",
+    "count": 2,
+    "years": [
+      2016,
+      2017
+    ]
+  },
+  {
+    "name": "Matchbook",
+    "count": 2,
+    "years": [
+      2013,
+      2015
+    ]
+  },
+  {
+    "name": "Knewton",
+    "count": 2,
+    "years": [
+      2010,
+      2011
+    ]
+  },
+  {
+    "name": "Cardstack",
+    "count": 2,
+    "years": [
+      2018,
+      2019
+    ]
+  },
+  {
+    "name": "Babbel",
+    "count": 2,
+    "years": [
+      2018,
+      2019
+    ]
+  },
+  {
+    "name": "Olo",
+    "count": 2,
+    "years": [
+      2020
+    ]
+  },
+  {
+    "name": "Twilio",
+    "count": 2,
+    "years": [
+      2020,
+      2021
+    ]
+  },
+  {
+    "name": "Check Technologies",
+    "count": 2,
+    "years": [
+      2020,
+      2021
+    ]
+  },
+  {
+    "name": "Figma",
+    "count": 2,
+    "years": [
+      2023,
+      2024
+    ]
+  },
+  {
+    "name": "Flatiron",
+    "count": 1,
+    "years": [
+      2014
+    ]
+  },
+  {
+    "name": "Clothia",
+    "count": 1,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "Thinkful",
+    "count": 1,
+    "years": [
+      2013
+    ]
+  },
+  {
+    "name": "Canary",
+    "count": 1,
+    "years": [
+      2014
+    ]
+  },
+  {
+    "name": "Dia & Co",
+    "count": 1,
+    "years": [
+      2017
+    ]
+  },
+  {
+    "name": "Vericred",
+    "count": 1,
+    "years": [
+      2016
+    ]
+  },
+  {
+    "name": "Comixology",
+    "count": 1,
+    "years": [
+      2010
+    ]
+  },
+  {
+    "name": "ClassPass",
+    "count": 1,
+    "years": [
+      2016
+    ]
+  },
+  {
+    "name": "OKCupid",
+    "count": 1,
+    "years": [
+      2010
+    ]
+  },
+  {
+    "name": "YouNow",
+    "count": 1,
+    "years": [
+      2013
+    ]
+  },
+  {
+    "name": "Etsy",
+    "count": 1,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "Teleport",
+    "count": 1,
+    "years": [
+      2016
+    ]
+  },
+  {
+    "name": "Crowdtap",
+    "count": 1,
+    "years": [
+      2013
+    ]
+  },
+  {
+    "name": "Trendrr",
+    "count": 1,
+    "years": [
+      2012
+    ]
+  },
+  {
+    "name": "Lifebooker",
+    "count": 1,
+    "years": [
+      2012
+    ]
+  },
+  {
+    "name": "Artsy",
+    "count": 1,
+    "years": [
+      2012
+    ]
+  },
+  {
+    "name": "bloglovin",
+    "count": 1,
+    "years": [
+      2013
+    ]
+  },
+  {
+    "name": "GetGlue",
+    "count": 1,
+    "years": [
+      2013
+    ]
+  },
+  {
+    "name": "frid.ge",
+    "count": 1,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "REDI",
+    "count": 1,
+    "years": [
+      2014
+    ]
+  },
+  {
+    "name": "Shapeways",
+    "count": 1,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "Socratic",
+    "count": 1,
+    "years": [
+      2015
+    ]
+  },
+  {
+    "name": "Oyster",
+    "count": 1,
+    "years": [
+      2014
+    ]
+  },
+  {
+    "name": "Thrillist",
+    "count": 1,
+    "years": [
+      2012
+    ]
+  },
+  {
+    "name": "Jiko Technologies",
+    "count": 1,
+    "years": [
+      2017
+    ]
+  },
+  {
+    "name": "Seen",
+    "count": 1,
+    "years": [
+      2014
+    ]
+  },
+  {
+    "name": "Yipit",
+    "count": 1,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "Knodes",
+    "count": 1,
+    "years": [
+      2012
+    ]
+  },
+  {
+    "name": "Trendalytics",
+    "count": 1,
+    "years": [
+      2013
+    ]
+  },
+  {
+    "name": "Cover",
+    "count": 1,
+    "years": [
+      2013
+    ]
+  },
+  {
+    "name": "Brewster",
+    "count": 1,
+    "years": [
+      2013
+    ]
+  },
+  {
+    "name": "Codecademy",
+    "count": 1,
+    "years": [
+      2012
+    ]
+  },
+  {
+    "name": "Aprizi",
+    "count": 1,
+    "years": [
+      2010
+    ]
+  },
+  {
+    "name": "JW Player",
+    "count": 1,
+    "years": [
+      2017
+    ]
+  },
+  {
+    "name": "RentTheRunway",
+    "count": 1,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "Hunch",
+    "count": 1,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "Cafe",
+    "count": 1,
+    "years": [
+      2014
+    ]
+  },
+  {
+    "name": "Instapaper",
+    "count": 1,
+    "years": [
+      2014
+    ]
+  },
+  {
+    "name": "Barkbox",
+    "count": 1,
+    "years": [
+      2013
+    ]
+  },
+  {
+    "name": "Ziggeo",
+    "count": 1,
+    "years": [
+      2015
+    ]
+  },
+  {
+    "name": "DesignerPages",
+    "count": 1,
+    "years": [
+      2010
+    ]
+  },
+  {
+    "name": "GroupMe",
+    "count": 1,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "Wildcard",
+    "count": 1,
+    "years": [
+      2014
+    ]
+  },
+  {
+    "name": "Canvas",
+    "count": 1,
+    "years": [
+      2012
+    ]
+  },
+  {
+    "name": "OMGPop",
+    "count": 1,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "Carve Systems",
+    "count": 1,
+    "years": [
+      2016
+    ]
+  },
+  {
+    "name": "kikin",
+    "count": 1,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "Point",
+    "count": 1,
+    "years": [
+      2015
+    ]
+  },
+  {
+    "name": "hyperpublic",
+    "count": 1,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "Plated",
+    "count": 1,
+    "years": [
+      2013
+    ]
+  },
+  {
+    "name": "SpotOn",
+    "count": 1,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "Lua Technologies",
+    "count": 1,
+    "years": [
+      2013
+    ]
+  },
+  {
+    "name": "Ufora",
+    "count": 1,
+    "years": [
+      2015
+    ]
+  },
+  {
+    "name": "SinglePlatform",
+    "count": 1,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "Jigsaw",
+    "count": 1,
+    "years": [
+      2017
+    ]
+  },
+  {
+    "name": "Intent Media",
+    "count": 1,
+    "years": [
+      2012
+    ]
+  },
+  {
+    "name": "Kensho",
+    "count": 1,
+    "years": [
+      2017
+    ]
+  },
+  {
+    "name": "BankSimple",
+    "count": 1,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "buzzd",
+    "count": 1,
+    "years": [
+      2010
+    ]
+  },
+  {
+    "name": "Numberfire",
+    "count": 1,
+    "years": [
+      2012
+    ]
+  },
+  {
+    "name": "Xtify",
+    "count": 1,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "Venmo",
+    "count": 1,
+    "years": [
+      2012
+    ]
+  },
+  {
+    "name": "Paribus",
+    "count": 1,
+    "years": [
+      2016
+    ]
+  },
+  {
+    "name": "boardrounds",
+    "count": 1,
+    "years": [
+      2014
+    ]
+  },
+  {
+    "name": "Knotch",
+    "count": 1,
+    "years": [
+      2017
+    ]
+  },
+  {
+    "name": "Adcade",
+    "count": 1,
+    "years": [
+      2013
+    ]
+  },
+  {
+    "name": "Vostu",
+    "count": 1,
+    "years": [
+      2011
+    ]
+  },
+  {
+    "name": "MedicaSafe",
+    "count": 1,
+    "years": [
+      2018
+    ]
+  },
+  {
+    "name": "SeamlessDocs",
+    "count": 1,
+    "years": [
+      2018
+    ]
+  },
+  {
+    "name": "Two Bulls",
+    "count": 1,
+    "years": [
+      2018
+    ]
+  },
+  {
+    "name": "Eight Sleep",
+    "count": 1,
+    "years": [
+      2019
+    ]
+  },
+  {
+    "name": "ProPublica",
+    "count": 1,
+    "years": [
+      2019
+    ]
+  },
+  {
+    "name": "Mount Sinai",
+    "count": 1,
+    "years": [
+      2019
+    ]
+  },
+  {
+    "name": "Blockstack",
+    "count": 1,
+    "years": [
+      2019
+    ]
+  },
+  {
+    "name": "Monument",
+    "count": 1,
+    "years": [
+      2020
+    ]
+  },
+  {
+    "name": "Lumi Labs",
+    "count": 1,
+    "years": [
+      2020
+    ]
+  },
+  {
+    "name": "OOVA",
+    "count": 1,
+    "years": [
+      2020
+    ]
+  },
+  {
+    "name": "The Comfort Closet",
+    "count": 1,
+    "years": [
+      2020
+    ]
+  },
+  {
+    "name": "Mark43",
+    "count": 1,
+    "years": [
+      2020
+    ]
+  },
+  {
+    "name": "Amperon",
+    "count": 1,
+    "years": [
+      2021
+    ]
+  },
+  {
+    "name": "Coinbase",
+    "count": 1,
+    "years": [
+      2021
+    ]
+  },
+  {
+    "name": "Legitimate",
+    "count": 1,
+    "years": [
+      2021
+    ]
+  },
+  {
+    "name": "Numina",
+    "count": 1,
+    "years": [
+      2021
+    ]
+  },
+  {
+    "name": "Octane",
+    "count": 1,
+    "years": [
+      2021
+    ]
+  },
+  {
+    "name": "CardStack",
+    "count": 1,
+    "years": [
+      2022
+    ]
+  },
+  {
+    "name": "PleasrDAO",
+    "count": 1,
+    "years": [
+      2022
+    ]
+  },
+  {
+    "name": "Spotify",
+    "count": 1,
+    "years": [
+      2022
+    ]
+  },
+  {
+    "name": "Endex.app",
+    "count": 1,
+    "years": [
+      2022
+    ]
+  },
+  {
+    "name": "Luminosity",
+    "count": 1,
+    "years": [
+      2022
+    ]
+  },
+  {
+    "name": "Lightstep",
+    "count": 1,
+    "years": [
+      2022
+    ]
+  },
+  {
+    "name": "Robinhood",
+    "count": 1,
+    "years": [
+      2023
+    ]
+  },
+  {
+    "name": "Footprint",
+    "count": 1,
+    "years": [
+      2023
+    ]
+  },
+  {
+    "name": "Bank of America",
+    "count": 1,
+    "years": [
+      2023
+    ]
+  },
+  {
+    "name": "Verisk",
+    "count": 1,
+    "years": [
+      2023
+    ]
+  },
+  {
+    "name": "Autodesk",
+    "count": 1,
+    "years": [
+      2023
+    ]
+  },
+  {
+    "name": "R3VL",
+    "count": 1,
+    "years": [
+      2023
+    ]
+  },
+  {
+    "name": "Wells Fargo",
+    "count": 1,
+    "years": [
+      2023
+    ]
+  },
+  {
+    "name": "Viam",
+    "count": 1,
+    "years": [
+      2024
+    ]
+  },
+  {
+    "name": "Cisco Systems",
+    "count": 1,
+    "years": [
+      2024
+    ]
+  },
+  {
+    "name": "JP Morgan",
+    "count": 1,
+    "years": [
+      2024
+    ]
+  },
+  {
+    "name": "WSP",
+    "count": 1,
+    "years": [
+      2024
+    ]
+  },
+  {
+    "name": "Nomura",
+    "count": 1,
+    "years": [
+      2024
+    ]
+  },
+  {
+    "name": "Goldman Sachs",
+    "count": 1,
+    "years": [
+      2024
+    ]
+  },
+  {
+    "name": "Flatiron Health",
+    "count": 1,
+    "years": [
+      2024
+    ]
+  },
+  {
+    "name": "Meta",
+    "count": 1,
+    "years": [
+      2024
+    ]
+  },
+  {
+    "name": "Lazard Data Analytics Group",
+    "count": 1,
+    "years": [
+      2024
+    ]
+  },
+  {
+    "name": "Google",
+    "count": 1,
+    "years": [
+      2024
+    ]
+  },
+  {
+    "name": "Caylent",
+    "count": 1,
+    "years": [
+      2024
+    ]
+  },
+  {
+    "name": "Crowe LLP",
+    "count": 1,
+    "years": [
+      2024
+    ]
+  },
+  {
+    "name": "Oden",
+    "count": 1,
+    "years": [
+      2024
+    ]
+  },
+  {
+    "name": "Bloomberg",
+    "count": 1,
+    "years": [
+      2024
+    ]
+  }
+]
