@@ -14,7 +14,9 @@
       2018,
       2019,
       2021
-    ]
+    ],
+    "domain": "buzzfeed.com",
+    "tier": 2
   },
   {
     "name": "Chartbeat",
@@ -31,7 +33,9 @@
       2021,
       2022,
       2024
-    ]
+    ],
+    "domain": "chartbeat.com",
+    "tier": 3
   },
   {
     "name": "MongoDB",
@@ -47,7 +51,9 @@
       2017,
       2019,
       2020
-    ]
+    ],
+    "domain": "mongodb.com",
+    "tier": 1
   },
   {
     "name": "Datadog",
@@ -64,7 +70,9 @@
       2020,
       2021,
       2023
-    ]
+    ],
+    "domain": "datadog.com",
+    "tier": 1
   },
   {
     "name": "Skillshare",
@@ -77,7 +85,9 @@
       2015,
       2016,
       2017
-    ]
+    ],
+    "domain": "skillshare.com",
+    "tier": 2
   },
   {
     "name": "Tumblr",
@@ -89,7 +99,9 @@
       2016,
       2017,
       2018
-    ]
+    ],
+    "domain": "tumblr.com",
+    "tier": 2
   },
   {
     "name": "Atlassian",
@@ -98,7 +110,9 @@
       2020,
       2023,
       2024
-    ]
+    ],
+    "domain": "atlassian.com",
+    "tier": 1
   },
   {
     "name": "Business Insider",
@@ -109,7 +123,9 @@
       2015,
       2016,
       2017
-    ]
+    ],
+    "domain": "businessinsider.com",
+    "tier": 2
   },
   {
     "name": "Foursquare",
@@ -119,7 +135,9 @@
       2013,
       2014,
       2015
-    ]
+    ],
+    "domain": "foursquare.com",
+    "tier": 2
   },
   {
     "name": "Major League Hacking",
@@ -127,7 +145,9 @@
     "years": [
       2015,
       2020
-    ]
+    ],
+    "domain": "mlh.io",
+    "tier": 3
   },
   {
     "name": "Betterpath",
@@ -135,7 +155,9 @@
     "years": [
       2014,
       2015
-    ]
+    ],
+    "tier": 3,
+    "domain": "betterpath.com"
   },
   {
     "name": "Challenge Post",
@@ -145,7 +167,9 @@
       2013,
       2014,
       2015
-    ]
+    ],
+    "tier": 3,
+    "domain": "challengepost.com"
   },
   {
     "name": "Kickstarter",
@@ -154,7 +178,9 @@
       2013,
       2014,
       2015
-    ]
+    ],
+    "domain": "kickstarter.com",
+    "tier": 2
   },
   {
     "name": "Birchbox",
@@ -164,7 +190,9 @@
       2013,
       2014,
       2015
-    ]
+    ],
+    "domain": "birchbox.com",
+    "tier": 2
   },
   {
     "name": "bitly",
@@ -174,7 +202,9 @@
       2011,
       2012,
       2013
-    ]
+    ],
+    "domain": "bitly.com",
+    "tier": 2
   },
   {
     "name": "Second Market",
@@ -183,7 +213,9 @@
       2011,
       2012,
       2013
-    ]
+    ],
+    "tier": 3,
+    "domain": "secondmarket.com"
   },
   {
     "name": "Sailthru",
@@ -191,7 +223,9 @@
     "years": [
       2012,
       2013
-    ]
+    ],
+    "domain": "sailthru.com",
+    "tier": 3
   },
   {
     "name": "Magnetic",
@@ -199,7 +233,9 @@
     "years": [
       2014,
       2015
-    ]
+    ],
+    "tier": 3,
+    "domain": "magnetic.com"
   },
   {
     "name": "Oden Technologies",
@@ -209,7 +245,9 @@
       2019,
       2021,
       2022
-    ]
+    ],
+    "domain": "oden.io",
+    "tier": 3
   },
   {
     "name": "Parse.ly",
@@ -219,7 +257,9 @@
       2011,
       2012,
       2013
-    ]
+    ],
+    "domain": "parsely.com",
+    "tier": 3
   },
   {
     "name": "AI.Reverie",
@@ -228,7 +268,9 @@
       2019,
       2020,
       2021
-    ]
+    ],
+    "domain": "aireverie.com",
+    "tier": 3
   },
   {
     "name": "Policy Genius",
@@ -237,7 +279,9 @@
       2020,
       2021,
       2022
-    ]
+    ],
+    "domain": "policygenius.com",
+    "tier": 3
   },
   {
     "name": "GIPHY",
@@ -246,7 +290,9 @@
       2017,
       2018,
       2019
-    ]
+    ],
+    "domain": "giphy.com",
+    "tier": 2
   },
   {
     "name": "Clarifai",
@@ -254,7 +300,9 @@
     "years": [
       2015,
       2017
-    ]
+    ],
+    "domain": "clarifai.com",
+    "tier": 3
   },
   {
     "name": "Next Jump",
@@ -263,7 +311,9 @@
       2012,
       2013,
       2014
-    ]
+    ],
+    "tier": 3,
+    "domain": "nextjump.com"
   },
   {
     "name": "First Look Media",
@@ -272,7 +322,9 @@
       2016,
       2017,
       2018
-    ]
+    ],
+    "tier": 3,
+    "domain": "firstlookmedia.com"
   },
   {
     "name": "BlueCore",
@@ -280,7 +332,9 @@
     "years": [
       2019,
       2021
-    ]
+    ],
+    "domain": "bluecore.com",
+    "tier": 3
   },
   {
     "name": "Tilt / Windmill",
@@ -289,7 +343,9 @@
       2019,
       2020,
       2021
-    ]
+    ],
+    "tier": 3,
+    "domain": "tilt/windmill.com"
   },
   {
     "name": "Ramp",
@@ -297,7 +353,9 @@
     "years": [
       2020,
       2024
-    ]
+    ],
+    "domain": "ramp.com",
+    "tier": 2
   },
   {
     "name": "Ro",
@@ -305,7 +363,9 @@
     "years": [
       2021,
       2022
-    ]
+    ],
+    "domain": "ro.co",
+    "tier": 2
   },
   {
     "name": "Spruce",
@@ -313,7 +373,9 @@
     "years": [
       2021,
       2022
-    ]
+    ],
+    "domain": "getspruce.com",
+    "tier": 3
   },
   {
     "name": "AppNexus",
@@ -321,7 +383,9 @@
     "years": [
       2014,
       2016
-    ]
+    ],
+    "domain": "appnexus.com",
+    "tier": 3
   },
   {
     "name": "Aviary",
@@ -329,7 +393,9 @@
     "years": [
       2010,
       2011
-    ]
+    ],
+    "tier": 3,
+    "domain": "aviary.com"
   },
   {
     "name": "SocialFlow",
@@ -337,7 +403,9 @@
     "years": [
       2011,
       2012
-    ]
+    ],
+    "tier": 3,
+    "domain": "socialflow.com"
   },
   {
     "name": "Branch",
@@ -345,7 +413,9 @@
     "years": [
       2012,
       2013
-    ]
+    ],
+    "tier": 3,
+    "domain": "branch.com"
   },
   {
     "name": "Salido",
@@ -353,7 +423,9 @@
     "years": [
       2016,
       2017
-    ]
+    ],
+    "tier": 3,
+    "domain": "salido.com"
   },
   {
     "name": "Oscar",
@@ -361,7 +433,9 @@
     "years": [
       2014,
       2016
-    ]
+    ],
+    "domain": "hioscar.com",
+    "tier": 2
   },
   {
     "name": "ChatID",
@@ -369,21 +443,27 @@
     "years": [
       2013,
       2014
-    ]
+    ],
+    "tier": 3,
+    "domain": "chatid.com"
   },
   {
     "name": "Mashable",
     "count": 2,
     "years": [
       2016
-    ]
+    ],
+    "domain": "mashable.com",
+    "tier": 2
   },
   {
     "name": "Gilt",
     "count": 2,
     "years": [
       2011
-    ]
+    ],
+    "domain": "gilt.com",
+    "tier": 2
   },
   {
     "name": "CitiBike",
@@ -391,7 +471,9 @@
     "years": [
       2016,
       2017
-    ]
+    ],
+    "domain": "citibikenyc.com",
+    "tier": 3
   },
   {
     "name": "Nestio",
@@ -399,7 +481,9 @@
     "years": [
       2015,
       2016
-    ]
+    ],
+    "domain": "nestio.com",
+    "tier": 3
   },
   {
     "name": "QLabs",
@@ -407,7 +491,9 @@
     "years": [
       2011,
       2012
-    ]
+    ],
+    "tier": 3,
+    "domain": "qlabs.com"
   },
   {
     "name": "MakeSpace",
@@ -415,7 +501,9 @@
     "years": [
       2017,
       2018
-    ]
+    ],
+    "domain": "makespace.com",
+    "tier": 3
   },
   {
     "name": "Tapad",
@@ -423,14 +511,18 @@
     "years": [
       2014,
       2016
-    ]
+    ],
+    "domain": "tapad.com",
+    "tier": 3
   },
   {
     "name": "Offerpop",
     "count": 2,
     "years": [
       2015
-    ]
+    ],
+    "tier": 3,
+    "domain": "offerpop.com"
   },
   {
     "name": "Kollabora",
@@ -438,7 +530,9 @@
     "years": [
       2012,
       2013
-    ]
+    ],
+    "tier": 3,
+    "domain": "kollabora.com"
   },
   {
     "name": "Boxee",
@@ -446,7 +540,9 @@
     "years": [
       2011,
       2012
-    ]
+    ],
+    "tier": 3,
+    "domain": "boxee.com"
   },
   {
     "name": "Ordr.in",
@@ -454,7 +550,9 @@
     "years": [
       2013,
       2014
-    ]
+    ],
+    "tier": 3,
+    "domain": "ordrin.com"
   },
   {
     "name": "Celmatix",
@@ -462,7 +560,9 @@
     "years": [
       2017,
       2018
-    ]
+    ],
+    "domain": "celmatix.com",
+    "tier": 3
   },
   {
     "name": "Local Response",
@@ -470,7 +570,9 @@
     "years": [
       2011,
       2012
-    ]
+    ],
+    "tier": 3,
+    "domain": "localresponse.com"
   },
   {
     "name": "Meetup",
@@ -478,7 +580,9 @@
     "years": [
       2012,
       2014
-    ]
+    ],
+    "domain": "meetup.com",
+    "tier": 2
   },
   {
     "name": "Wellthy",
@@ -486,7 +590,9 @@
     "years": [
       2016,
       2017
-    ]
+    ],
+    "domain": "wellthy.com",
+    "tier": 3
   },
   {
     "name": "Matchbook",
@@ -494,7 +600,9 @@
     "years": [
       2013,
       2015
-    ]
+    ],
+    "tier": 3,
+    "domain": "matchbook.com"
   },
   {
     "name": "Knewton",
@@ -502,7 +610,9 @@
     "years": [
       2010,
       2011
-    ]
+    ],
+    "tier": 3,
+    "domain": "knewton.com"
   },
   {
     "name": "Cardstack",
@@ -510,7 +620,9 @@
     "years": [
       2018,
       2019
-    ]
+    ],
+    "domain": "cardstack.com",
+    "tier": 3
   },
   {
     "name": "Babbel",
@@ -518,14 +630,18 @@
     "years": [
       2018,
       2019
-    ]
+    ],
+    "domain": "babbel.com",
+    "tier": 3
   },
   {
     "name": "Olo",
     "count": 2,
     "years": [
       2020
-    ]
+    ],
+    "domain": "olo.com",
+    "tier": 2
   },
   {
     "name": "Twilio",
@@ -533,7 +649,9 @@
     "years": [
       2020,
       2021
-    ]
+    ],
+    "domain": "twilio.com",
+    "tier": 1
   },
   {
     "name": "Check Technologies",
@@ -541,7 +659,9 @@
     "years": [
       2020,
       2021
-    ]
+    ],
+    "domain": "checkhq.com",
+    "tier": 3
   },
   {
     "name": "Figma",
@@ -549,783 +669,1007 @@
     "years": [
       2023,
       2024
-    ]
+    ],
+    "domain": "figma.com",
+    "tier": 1
   },
   {
     "name": "Flatiron",
     "count": 1,
     "years": [
       2014
-    ]
+    ],
+    "tier": 3,
+    "domain": "flatiron.com"
   },
   {
     "name": "Clothia",
     "count": 1,
     "years": [
       2011
-    ]
+    ],
+    "tier": 3,
+    "domain": "clothia.com"
   },
   {
     "name": "Thinkful",
     "count": 1,
     "years": [
       2013
-    ]
+    ],
+    "tier": 3,
+    "domain": "thinkful.com"
   },
   {
     "name": "Canary",
     "count": 1,
     "years": [
       2014
-    ]
+    ],
+    "tier": 3,
+    "domain": "canary.com"
   },
   {
     "name": "Dia & Co",
     "count": 1,
     "years": [
       2017
-    ]
+    ],
+    "tier": 3,
+    "domain": "dia&co.com"
   },
   {
     "name": "Vericred",
     "count": 1,
     "years": [
       2016
-    ]
+    ],
+    "tier": 3,
+    "domain": "vericred.com"
   },
   {
     "name": "Comixology",
     "count": 1,
     "years": [
       2010
-    ]
+    ],
+    "tier": 3,
+    "domain": "comixology.com"
   },
   {
     "name": "ClassPass",
     "count": 1,
     "years": [
       2016
-    ]
+    ],
+    "domain": "classpass.com",
+    "tier": 2
   },
   {
     "name": "OKCupid",
     "count": 1,
     "years": [
       2010
-    ]
+    ],
+    "domain": "okcupid.com",
+    "tier": 2
   },
   {
     "name": "YouNow",
     "count": 1,
     "years": [
       2013
-    ]
+    ],
+    "tier": 3,
+    "domain": "younow.com"
   },
   {
     "name": "Etsy",
     "count": 1,
     "years": [
       2011
-    ]
+    ],
+    "domain": "etsy.com",
+    "tier": 1
   },
   {
     "name": "Teleport",
     "count": 1,
     "years": [
       2016
-    ]
+    ],
+    "tier": 3,
+    "domain": "teleport.com"
   },
   {
     "name": "Crowdtap",
     "count": 1,
     "years": [
       2013
-    ]
+    ],
+    "tier": 3,
+    "domain": "crowdtap.com"
   },
   {
     "name": "Trendrr",
     "count": 1,
     "years": [
       2012
-    ]
+    ],
+    "tier": 3,
+    "domain": "trendrr.com"
   },
   {
     "name": "Lifebooker",
     "count": 1,
     "years": [
       2012
-    ]
+    ],
+    "tier": 3,
+    "domain": "lifebooker.com"
   },
   {
     "name": "Artsy",
     "count": 1,
     "years": [
       2012
-    ]
+    ],
+    "domain": "artsy.net",
+    "tier": 2
   },
   {
     "name": "bloglovin",
     "count": 1,
     "years": [
       2013
-    ]
+    ],
+    "tier": 3,
+    "domain": "bloglovin.com"
   },
   {
     "name": "GetGlue",
     "count": 1,
     "years": [
       2013
-    ]
+    ],
+    "tier": 3,
+    "domain": "getglue.com"
   },
   {
     "name": "frid.ge",
     "count": 1,
     "years": [
       2011
-    ]
+    ],
+    "tier": 3,
+    "domain": "fridge.com"
   },
   {
     "name": "REDI",
     "count": 1,
     "years": [
       2014
-    ]
+    ],
+    "tier": 3,
+    "domain": "redi.com"
   },
   {
     "name": "Shapeways",
     "count": 1,
     "years": [
       2011
-    ]
+    ],
+    "tier": 3,
+    "domain": "shapeways.com"
   },
   {
     "name": "Socratic",
     "count": 1,
     "years": [
       2015
-    ]
+    ],
+    "tier": 3,
+    "domain": "socratic.com"
   },
   {
     "name": "Oyster",
     "count": 1,
     "years": [
       2014
-    ]
+    ],
+    "tier": 3,
+    "domain": "oyster.com"
   },
   {
     "name": "Thrillist",
     "count": 1,
     "years": [
       2012
-    ]
+    ],
+    "domain": "thrillist.com",
+    "tier": 2
   },
   {
     "name": "Jiko Technologies",
     "count": 1,
     "years": [
       2017
-    ]
+    ],
+    "tier": 3,
+    "domain": "jikotechnologies.com"
   },
   {
     "name": "Seen",
     "count": 1,
     "years": [
       2014
-    ]
+    ],
+    "tier": 3,
+    "domain": "seen.com"
   },
   {
     "name": "Yipit",
     "count": 1,
     "years": [
       2011
-    ]
+    ],
+    "tier": 3,
+    "domain": "yipit.com"
   },
   {
     "name": "Knodes",
     "count": 1,
     "years": [
       2012
-    ]
+    ],
+    "tier": 3,
+    "domain": "knodes.com"
   },
   {
     "name": "Trendalytics",
     "count": 1,
     "years": [
       2013
-    ]
+    ],
+    "tier": 3,
+    "domain": "trendalytics.com"
   },
   {
     "name": "Cover",
     "count": 1,
     "years": [
       2013
-    ]
+    ],
+    "tier": 3,
+    "domain": "cover.com"
   },
   {
     "name": "Brewster",
     "count": 1,
     "years": [
       2013
-    ]
+    ],
+    "tier": 3,
+    "domain": "brewster.com"
   },
   {
     "name": "Codecademy",
     "count": 1,
     "years": [
       2012
-    ]
+    ],
+    "domain": "codecademy.com",
+    "tier": 2
   },
   {
     "name": "Aprizi",
     "count": 1,
     "years": [
       2010
-    ]
+    ],
+    "tier": 3,
+    "domain": "aprizi.com"
   },
   {
     "name": "JW Player",
     "count": 1,
     "years": [
       2017
-    ]
+    ],
+    "tier": 3,
+    "domain": "jwplayer.com"
   },
   {
     "name": "RentTheRunway",
     "count": 1,
     "years": [
       2011
-    ]
+    ],
+    "domain": "renttherunway.com",
+    "tier": 2
   },
   {
     "name": "Hunch",
     "count": 1,
     "years": [
       2011
-    ]
+    ],
+    "tier": 3,
+    "domain": "hunch.com"
   },
   {
     "name": "Cafe",
     "count": 1,
     "years": [
       2014
-    ]
+    ],
+    "tier": 3,
+    "domain": "cafe.com"
   },
   {
     "name": "Instapaper",
     "count": 1,
     "years": [
       2014
-    ]
+    ],
+    "domain": "instapaper.com",
+    "tier": 2
   },
   {
     "name": "Barkbox",
     "count": 1,
     "years": [
       2013
-    ]
+    ],
+    "domain": "barkbox.com",
+    "tier": 2
   },
   {
     "name": "Ziggeo",
     "count": 1,
     "years": [
       2015
-    ]
+    ],
+    "tier": 3,
+    "domain": "ziggeo.com"
   },
   {
     "name": "DesignerPages",
     "count": 1,
     "years": [
       2010
-    ]
+    ],
+    "tier": 3,
+    "domain": "designerpages.com"
   },
   {
     "name": "GroupMe",
     "count": 1,
     "years": [
       2011
-    ]
+    ],
+    "tier": 3,
+    "domain": "groupme.com"
   },
   {
     "name": "Wildcard",
     "count": 1,
     "years": [
       2014
-    ]
+    ],
+    "tier": 3,
+    "domain": "wildcard.com"
   },
   {
     "name": "Canvas",
     "count": 1,
     "years": [
       2012
-    ]
+    ],
+    "tier": 3,
+    "domain": "canvas.com"
   },
   {
     "name": "OMGPop",
     "count": 1,
     "years": [
       2011
-    ]
+    ],
+    "tier": 3,
+    "domain": "omgpop.com"
   },
   {
     "name": "Carve Systems",
     "count": 1,
     "years": [
       2016
-    ]
+    ],
+    "tier": 3,
+    "domain": "carvesystems.com"
   },
   {
     "name": "kikin",
     "count": 1,
     "years": [
       2011
-    ]
+    ],
+    "tier": 3,
+    "domain": "kikin.com"
   },
   {
     "name": "Point",
     "count": 1,
     "years": [
       2015
-    ]
+    ],
+    "tier": 3,
+    "domain": "point.com"
   },
   {
     "name": "hyperpublic",
     "count": 1,
     "years": [
       2011
-    ]
+    ],
+    "tier": 3,
+    "domain": "hyperpublic.com"
   },
   {
     "name": "Plated",
     "count": 1,
     "years": [
       2013
-    ]
+    ],
+    "tier": 3,
+    "domain": "plated.com"
   },
   {
     "name": "SpotOn",
     "count": 1,
     "years": [
       2011
-    ]
+    ],
+    "tier": 3,
+    "domain": "spoton.com"
   },
   {
     "name": "Lua Technologies",
     "count": 1,
     "years": [
       2013
-    ]
+    ],
+    "tier": 3,
+    "domain": "luatechnologies.com"
   },
   {
     "name": "Ufora",
     "count": 1,
     "years": [
       2015
-    ]
+    ],
+    "tier": 3,
+    "domain": "ufora.com"
   },
   {
     "name": "SinglePlatform",
     "count": 1,
     "years": [
       2011
-    ]
+    ],
+    "tier": 3,
+    "domain": "singleplatform.com"
   },
   {
     "name": "Jigsaw",
     "count": 1,
     "years": [
       2017
-    ]
+    ],
+    "tier": 3,
+    "domain": "jigsaw.com"
   },
   {
     "name": "Intent Media",
     "count": 1,
     "years": [
       2012
-    ]
+    ],
+    "tier": 3,
+    "domain": "intentmedia.com"
   },
   {
     "name": "Kensho",
     "count": 1,
     "years": [
       2017
-    ]
+    ],
+    "domain": "kensho.com",
+    "tier": 3
   },
   {
     "name": "BankSimple",
     "count": 1,
     "years": [
       2011
-    ]
+    ],
+    "tier": 3,
+    "domain": "banksimple.com"
   },
   {
     "name": "buzzd",
     "count": 1,
     "years": [
       2010
-    ]
+    ],
+    "tier": 3,
+    "domain": "buzzd.com"
   },
   {
     "name": "Numberfire",
     "count": 1,
     "years": [
       2012
-    ]
+    ],
+    "tier": 3,
+    "domain": "numberfire.com"
   },
   {
     "name": "Xtify",
     "count": 1,
     "years": [
       2011
-    ]
+    ],
+    "tier": 3,
+    "domain": "xtify.com"
   },
   {
     "name": "Venmo",
     "count": 1,
     "years": [
       2012
-    ]
+    ],
+    "domain": "venmo.com",
+    "tier": 1
   },
   {
     "name": "Paribus",
     "count": 1,
     "years": [
       2016
-    ]
+    ],
+    "tier": 3,
+    "domain": "paribus.com"
   },
   {
     "name": "boardrounds",
     "count": 1,
     "years": [
       2014
-    ]
+    ],
+    "tier": 3,
+    "domain": "boardrounds.com"
   },
   {
     "name": "Knotch",
     "count": 1,
     "years": [
       2017
-    ]
+    ],
+    "tier": 3,
+    "domain": "knotch.com"
   },
   {
     "name": "Adcade",
     "count": 1,
     "years": [
       2013
-    ]
+    ],
+    "tier": 3,
+    "domain": "adcade.com"
   },
   {
     "name": "Vostu",
     "count": 1,
     "years": [
       2011
-    ]
+    ],
+    "tier": 3,
+    "domain": "vostu.com"
   },
   {
     "name": "MedicaSafe",
     "count": 1,
     "years": [
       2018
-    ]
+    ],
+    "tier": 3,
+    "domain": "medicasafe.com"
   },
   {
     "name": "SeamlessDocs",
     "count": 1,
     "years": [
       2018
-    ]
+    ],
+    "tier": 3,
+    "domain": "seamlessdocs.com"
   },
   {
     "name": "Two Bulls",
     "count": 1,
     "years": [
       2018
-    ]
+    ],
+    "tier": 3,
+    "domain": "twobulls.com"
   },
   {
     "name": "Eight Sleep",
     "count": 1,
     "years": [
       2019
-    ]
+    ],
+    "tier": 3,
+    "domain": "eightsleep.com"
   },
   {
     "name": "ProPublica",
     "count": 1,
     "years": [
       2019
-    ]
+    ],
+    "domain": "propublica.org",
+    "tier": 2
   },
   {
     "name": "Mount Sinai",
     "count": 1,
     "years": [
       2019
-    ]
+    ],
+    "tier": 3,
+    "domain": "mountsinai.com"
   },
   {
     "name": "Blockstack",
     "count": 1,
     "years": [
       2019
-    ]
+    ],
+    "tier": 3,
+    "domain": "blockstack.com"
   },
   {
     "name": "Monument",
     "count": 1,
     "years": [
       2020
-    ]
+    ],
+    "tier": 3,
+    "domain": "monument.com"
   },
   {
     "name": "Lumi Labs",
     "count": 1,
     "years": [
       2020
-    ]
+    ],
+    "tier": 3,
+    "domain": "lumilabs.com"
   },
   {
     "name": "OOVA",
     "count": 1,
     "years": [
       2020
-    ]
+    ],
+    "tier": 3,
+    "domain": "oova.com"
   },
   {
     "name": "The Comfort Closet",
     "count": 1,
     "years": [
       2020
-    ]
+    ],
+    "tier": 3,
+    "domain": "thecomfortcloset.com"
   },
   {
     "name": "Mark43",
     "count": 1,
     "years": [
       2020
-    ]
+    ],
+    "domain": "mark43.com",
+    "tier": 3
   },
   {
     "name": "Amperon",
     "count": 1,
     "years": [
       2021
-    ]
+    ],
+    "domain": "amperon.co",
+    "tier": 3
   },
   {
     "name": "Coinbase",
     "count": 1,
     "years": [
       2021
-    ]
+    ],
+    "domain": "coinbase.com",
+    "tier": 1
   },
   {
     "name": "Legitimate",
     "count": 1,
     "years": [
       2021
-    ]
+    ],
+    "tier": 3,
+    "domain": "legitimate.com"
   },
   {
     "name": "Numina",
     "count": 1,
     "years": [
       2021
-    ]
+    ],
+    "domain": "numina.co",
+    "tier": 3
   },
   {
     "name": "Octane",
     "count": 1,
     "years": [
       2021
-    ]
+    ],
+    "domain": "octane.co",
+    "tier": 3
   },
   {
     "name": "CardStack",
     "count": 1,
     "years": [
       2022
-    ]
+    ],
+    "tier": 3,
+    "domain": "cardstack.com"
   },
   {
     "name": "PleasrDAO",
     "count": 1,
     "years": [
       2022
-    ]
+    ],
+    "tier": 3,
+    "domain": "pleasrdao.com"
   },
   {
     "name": "Spotify",
     "count": 1,
     "years": [
       2022
-    ]
+    ],
+    "domain": "spotify.com",
+    "tier": 1
   },
   {
     "name": "Endex.app",
     "count": 1,
     "years": [
       2022
-    ]
+    ],
+    "tier": 3,
+    "domain": "endexapp.com"
   },
   {
     "name": "Luminosity",
     "count": 1,
     "years": [
       2022
-    ]
+    ],
+    "tier": 3,
+    "domain": "luminosity.com"
   },
   {
     "name": "Lightstep",
     "count": 1,
     "years": [
       2022
-    ]
+    ],
+    "domain": "lightstep.com",
+    "tier": 3
   },
   {
     "name": "Robinhood",
     "count": 1,
     "years": [
       2023
-    ]
+    ],
+    "domain": "robinhood.com",
+    "tier": 1
   },
   {
     "name": "Footprint",
     "count": 1,
     "years": [
       2023
-    ]
+    ],
+    "domain": "footprint.co",
+    "tier": 3
   },
   {
     "name": "Bank of America",
     "count": 1,
     "years": [
       2023
-    ]
+    ],
+    "domain": "bankofamerica.com",
+    "tier": 1
   },
   {
     "name": "Verisk",
     "count": 1,
     "years": [
       2023
-    ]
+    ],
+    "domain": "verisk.com",
+    "tier": 2
   },
   {
     "name": "Autodesk",
     "count": 1,
     "years": [
       2023
-    ]
+    ],
+    "domain": "autodesk.com",
+    "tier": 1
   },
   {
     "name": "R3VL",
     "count": 1,
     "years": [
       2023
-    ]
+    ],
+    "tier": 3,
+    "domain": "r3vl.com"
   },
   {
     "name": "Wells Fargo",
     "count": 1,
     "years": [
       2023
-    ]
+    ],
+    "domain": "wellsfargo.com",
+    "tier": 1
   },
   {
     "name": "Viam",
     "count": 1,
     "years": [
       2024
-    ]
+    ],
+    "domain": "viam.com",
+    "tier": 3
   },
   {
     "name": "Cisco Systems",
     "count": 1,
     "years": [
       2024
-    ]
+    ],
+    "domain": "cisco.com",
+    "tier": 1
   },
   {
     "name": "JP Morgan",
     "count": 1,
     "years": [
       2024
-    ]
+    ],
+    "domain": "jpmorgan.com",
+    "tier": 1
   },
   {
     "name": "WSP",
     "count": 1,
     "years": [
       2024
-    ]
+    ],
+    "tier": 3,
+    "domain": "wsp.com"
   },
   {
     "name": "Nomura",
     "count": 1,
     "years": [
       2024
-    ]
+    ],
+    "domain": "nomura.com",
+    "tier": 2
   },
   {
     "name": "Goldman Sachs",
     "count": 1,
     "years": [
       2024
-    ]
+    ],
+    "domain": "goldmansachs.com",
+    "tier": 1
   },
   {
     "name": "Flatiron Health",
     "count": 1,
     "years": [
       2024
-    ]
+    ],
+    "domain": "flatiron.com",
+    "tier": 3
   },
   {
     "name": "Meta",
     "count": 1,
     "years": [
       2024
-    ]
+    ],
+    "domain": "meta.com",
+    "tier": 1
   },
   {
     "name": "Lazard Data Analytics Group",
     "count": 1,
     "years": [
       2024
-    ]
+    ],
+    "tier": 3,
+    "domain": "lazarddataanalyticsgroup.com"
   },
   {
     "name": "Google",
     "count": 1,
     "years": [
       2024
-    ]
+    ],
+    "domain": "google.com",
+    "tier": 1
   },
   {
     "name": "Caylent",
     "count": 1,
     "years": [
       2024
-    ]
+    ],
+    "tier": 3,
+    "domain": "caylent.com"
   },
   {
     "name": "Crowe LLP",
     "count": 1,
     "years": [
       2024
-    ]
+    ],
+    "tier": 3,
+    "domain": "crowellp.com"
   },
   {
     "name": "Oden",
     "count": 1,
     "years": [
       2024
-    ]
+    ],
+    "tier": 3,
+    "domain": "oden.com"
   },
   {
     "name": "Bloomberg",
     "count": 1,
     "years": [
       2024
-    ]
+    ],
+    "domain": "bloomberg.com",
+    "tier": 1
   }
 ]

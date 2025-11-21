@@ -120,19 +120,25 @@
 
         .partners-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 25px;
             margin: 40px 0;
         }
 
         .partner-card {
             background: #1a1a1a;
             border: 2px solid #2a2a2a;
-            border-radius: 10px;
-            padding: 20px;
+            border-radius: 12px;
+            padding: 30px 20px;
             text-align: center;
             transition: all 0.3s;
             cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 140px;
+            position: relative;
         }
 
         .partner-card:hover {
@@ -141,29 +147,67 @@
             box-shadow: 0 10px 30px rgba(255, 51, 102, 0.3);
         }
 
+        .partner-card:hover .partner-details {
+            opacity: 1;
+        }
+
+        .partner-logo {
+            width: 120px;
+            height: 60px;
+            object-fit: contain;
+            margin-bottom: 15px;
+            opacity: 0.85;
+            transition: all 0.3s;
+        }
+
+        .partner-card:hover .partner-logo {
+            opacity: 1;
+            transform: scale(1.05);
+        }
+
         .partner-name {
-            font-size: 1.2em;
-            font-weight: bold;
-            margin-bottom: 10px;
+            font-size: 1em;
+            font-weight: 600;
+            margin-bottom: 8px;
             color: #fff;
+            line-height: 1.3;
         }
 
         .partner-count {
-            font-size: 2em;
+            font-size: 1.5em;
             font-weight: bold;
             color: #ff3366;
-            margin: 10px 0;
+            margin: 5px 0;
         }
 
         .partner-label {
             color: #888;
-            font-size: 0.9em;
+            font-size: 0.85em;
         }
 
         .years {
-            margin-top: 10px;
+            margin-top: 8px;
             color: #666;
-            font-size: 0.85em;
+            font-size: 0.8em;
+        }
+
+        .partner-details {
+            opacity: 0.7;
+            transition: opacity 0.3s;
+        }
+
+        .logo-fallback {
+            width: 120px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            font-weight: 700;
+            color: #ff3366;
+            text-align: center;
+            line-height: 1.2;
         }
 
         footer {
@@ -223,7 +267,8 @@
     <div class="container">
         <div class="controls">
             <input type="text" class="search-box" id="searchBox" placeholder="Search partners...">
-            <button class="btn active" data-sort="count">Sort by Fellows</button>
+            <button class="btn active" data-sort="recognition">Most Recognizable</button>
+            <button class="btn" data-sort="count">Sort by Fellows</button>
             <button class="btn" data-sort="name">Sort by Name</button>
             <button class="btn" data-sort="recent">Most Recent</button>
         </div>
@@ -238,24 +283,36 @@
 
     <script>
         let partnersData = [];
-        let currentSort = 'count';
+        let currentSort = 'recognition';
 
         // Load and process data
+        console.log('Starting to load partners.json...');
         fetch('partners.json')
-            .then(response => response.json())
+            .then(response => {
+                console.log('Fetch response:', response.status);
+                return response.json();
+            })
             .then(data => {
+                console.log('Data loaded successfully:', data.length, 'partners');
                 partnersData = data;
                 updateStats();
                 renderPartners();
+                console.log('Rendering complete');
             })
             .catch(error => {
                 console.error('Error loading data:', error);
+                alert('Error loading data: ' + error.message);
             });
 
         function updateStats() {
             document.getElementById('totalPartners').textContent = partnersData.length;
             const totalFellows = partnersData.reduce((sum, p) => sum + p.count, 0);
             document.getElementById('totalFellows').textContent = totalFellows;
+        }
+
+        function getLogoUrl(partner) {
+            // Use Clearbit Logo API - free and works for most companies
+            return `https://logo.clearbit.com/${partner.domain}`;
         }
 
         function renderPartners(filterText = '') {
@@ -266,7 +323,13 @@
 
             // Sort
             let sorted = [...filtered];
-            if (currentSort === 'count') {
+            if (currentSort === 'recognition') {
+                // Sort by tier (1=most recognizable), then by fellow count
+                sorted.sort((a, b) => {
+                    if (a.tier !== b.tier) return a.tier - b.tier;
+                    return b.count - a.count;
+                });
+            } else if (currentSort === 'count') {
                 sorted.sort((a, b) => b.count - a.count);
             } else if (currentSort === 'name') {
                 sorted.sort((a, b) => a.name.localeCompare(b.name));
@@ -274,14 +337,23 @@
                 sorted.sort((a, b) => Math.max(...b.years) - Math.max(...a.years));
             }
 
-            grid.innerHTML = sorted.map(partner => `
-                <div class="partner-card">
-                    <div class="partner-name">${partner.name}</div>
-                    <div class="partner-count">${partner.count}</div>
-                    <div class="partner-label">fellow${partner.count !== 1 ? 's' : ''}</div>
-                    <div class="years">${formatYears(partner.years)}</div>
-                </div>
-            `).join('');
+            grid.innerHTML = sorted.map(partner => {
+                const logoUrl = getLogoUrl(partner);
+                return `
+                    <div class="partner-card">
+                        <img src="${logoUrl}"
+                             alt="${partner.name} logo"
+                             class="partner-logo"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="logo-fallback" style="display:none;">${partner.name}</div>
+                        <div class="partner-details">
+                            <div class="partner-count">${partner.count}</div>
+                            <div class="partner-label">fellow${partner.count !== 1 ? 's' : ''}</div>
+                            <div class="years">${formatYears(partner.years)}</div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
         }
 
         function formatYears(years) {
